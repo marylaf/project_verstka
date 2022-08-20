@@ -1,0 +1,11 @@
+.description__container-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.description__container-info:last-of-type {
+  padding-bottom: 8px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}

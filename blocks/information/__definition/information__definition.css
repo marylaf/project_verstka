@@ -1,0 +1,13 @@
+.information__definition {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0e0e0f;
+  margin: 0;
+  overflow: hidden;
+  max-height: 3.6em;
+  line-height: 1.2em;
+  padding-right: 4px;
+}

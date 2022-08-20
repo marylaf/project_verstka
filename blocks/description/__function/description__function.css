@@ -1,0 +1,12 @@
+.description__function {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #b2b5bb;
+  margin: 0;
+  padding-left: 8px;
+  padding-right: 24px;
+  max-width: 130px;
+}

@@ -1,0 +1,5 @@
+.information__comment-container {
+  display: flex;
+  border-bottom: 1px solid #dfe1e5;
+  width: 243px;
+}

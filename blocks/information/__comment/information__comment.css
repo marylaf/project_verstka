@@ -1,0 +1,16 @@
+.information__comment {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 2px solid #0e0e0f;
+  border-bottom: none;
+}
+
+.information__comment:first-child {
+  border-bottom: 2px solid #0e0e0f;
+}

@@ -1,0 +1,13 @@
+.table__cell-yellow {
+  padding: 4px 8px;
+  color: #ca8a04;
+  background: rgba(234, 179, 8, 0.1);
+  border-radius: 16px;
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  display: inline-block;
+}

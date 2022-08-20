@@ -1,0 +1,12 @@
+.description__info-name {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  border-bottom: none;
+}
+
+.description__info-name:first-child {
+  border-bottom: 2px solid #0e0e0f;
+}

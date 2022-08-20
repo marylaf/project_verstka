@@ -1,0 +1,7 @@
+.table__name-container {
+  /* display: flex; */
+}
+
+.table__name-container:first-child {
+  border-bottom: 1px solid #dfe1e5;
+}

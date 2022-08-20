@@ -1,0 +1,6 @@
+.information__description-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 147px;
+  padding-bottom: 16px;
+}

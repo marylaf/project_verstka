@@ -1,0 +1,13 @@
+.table__cell-grey {
+  padding: 4px 8px;
+  color: #606c80;
+  background: rgba(108, 108, 108, 0.1);
+  border-radius: 16px;
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  display: inline-block;
+}

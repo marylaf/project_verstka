@@ -1,0 +1,12 @@
+.button__icon {
+  cursor: pointer;
+  background: none;
+  padding: 0;
+  border: none;
+  margin-right: 36px;
+  display: flex;
+}
+
+.button__icon:last-child {
+  margin-right: 0;
+}

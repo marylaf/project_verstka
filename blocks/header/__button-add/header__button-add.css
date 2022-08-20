@@ -1,0 +1,14 @@
+.header__button-add {
+  min-width: 164px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: none;
+  background: #1c85e8;
+  display: flex;
+  border: none;
+  max-height: 40px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  align-items: center;
+}

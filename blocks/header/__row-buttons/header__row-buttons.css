@@ -1,0 +1,7 @@
+.header__row-buttons {
+  display: flex;
+  flex-direction: row;
+  padding-right: 32px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
