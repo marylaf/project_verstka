@@ -132,7 +132,7 @@
           </div>
           <div class="information__description">
             <p class="information__name-subtitle">Описание проекта</p>
-            <h2 class="information__definition">
+            <h3 class="information__definition">
               Donec id nisi nibh. Maecenas sed dapibus libero. Curabitur
               viverra, ante a euismod auctor, leo lacus luctus metus, nec
               commodo neque nisi id magna. Nulla vel mi faucibus, euismod risus
@@ -145,7 +145,7 @@
               feugiat. Aenean dapibus a nulla ut mollis. Praesent venenatis at
               felis vel sollicitudin. Vestibulum semper nisl eget urna posuere,
               in ultricies diam consequat.
-            </h2>
+            </h3>
           </div>
         </div>
       </section>
@@ -178,17 +178,17 @@
               class="button__icon button__icon_type_description-plus"
             >
               <img class="icon" src="./images/Icon.plus.svg" alt="иконка" />
-              <h2 class="button__text button__text_type_description-plus">
+              <h3 class="button__text button__text_type_description-plus">
                 Создать бюджет
-              </h2>
+              </h3>
             </button>
             <button
               type="button"
               class="button__icon button__icon_type_description-agree"
             >
-              <h2 class="button__text button__text_type_description-agree">
+              <h3 class="button__text button__text_type_description-agree">
                 Согласовать
-              </h2>
+              </h3>
             </button>
           </div>
           <div class="description__functions">
@@ -246,7 +246,7 @@
           <td class="table__cell">Иванов И.И.</td>
           <td class="table__cell">12.08.2022</td>
           <td class="table__cell">
-            <h2 class="table__cell-yellow">Согласуется</h2>
+            <h3 class="table__cell-yellow">Согласуется</h3>
           </td>
         </tr>
         <tr class="table__name-container">
@@ -259,7 +259,7 @@
           <td class="table__cell">Иванов И.И.</td>
           <td class="table__cell">12.08.2022</td>
           <td class="table__cell">
-            <h2 class="table__cell-yellow">В работе</h2>
+            <h3 class="table__cell-yellow">В работе</h3>
           </td>
         </tr>
         <tr class="table__name-container">
@@ -272,7 +272,7 @@
           <td class="table__cell">Иванов И.И.</td>
           <td class="table__cell">12.08.2022</td>
           <td class="table__cell">
-            <h2 class="table__cell-green">Согласован</h2>
+            <h3 class="table__cell-green">Согласован</h3>
           </td>
         </tr>
         <tr class="table__name-container">
@@ -285,7 +285,7 @@
           <td class="table__cell">Иванов И.И.</td>
           <td class="table__cell">12.08.2022</td>
           <td class="table__cell">
-            <h2 class="table__cell-red">Аннулировано</h2>
+            <h3 class="table__cell-red">Аннулировано</h3>
           </td>
         </tr>
         <tr class="table__name-container">
@@ -298,7 +298,7 @@
           <td class="table__cell">Иванов И.И.</td>
           <td class="table__cell">12.08.2022</td>
           <td class="table__cell">
-            <h2 class="table__cell-grey">В архив</h2>
+            <h3 class="table__cell-grey">В архив</h3>
           </td>
         </tr>
         <tr class="table__name-container">
@@ -311,7 +311,7 @@
           <td class="table__cell">Иванов И.И.</td>
           <td class="table__cell">12.08.2022</td>
           <td class="table__cell">
-            <h2 class="table__cell-yellow">Согласуется</h2>
+            <h3 class="table__cell-yellow">Согласуется</h3>
           </td>
         </tr>
         <tr class="table__name-container">
@@ -324,7 +324,7 @@
           <td class="table__cell">Иванов И.И.</td>
           <td class="table__cell">12.08.2022</td>
           <td class="table__cell">
-            <h2 class="table__cell-green">Согласован</h2>
+            <h3 class="table__cell-green">Согласован</h3>
           </td>
         </tr>
         <tr class="table__name-container">
@@ -337,10 +337,42 @@
           <td class="table__cell">Иванов И.И.</td>
           <td class="table__cell">12.08.2022</td>
           <td class="table__cell">
-            <h2 class="table__cell-yellow">Согласуется</h2>
+            <h3 class="table__cell-yellow">Согласуется</h3>
           </td>
         </tr>
       </table>
+      <div class="popup popup_opened">
+        <div class="popup__container">
+          <button class="popup__button-drop" type="button"></button>
+          <h2 class="popup__make-title">Создание бюджета</h2>
+          <p class="popup__make-subtitle">
+            Выберите тип бюджета и договор, к которому он будет привязан
+          </p>
+          <form name="popup__form" id="popup__form" class="popup__form">
+            <h3 class="popup__subtitle">Тип бюджета</h3>
+            <input type="radio" class="popup__button-choice" value="Доходный" />
+            <input
+              type="radio"
+              class="popup__button-choice"
+              value="Расходный"
+            />
+            <h3 class="popup__subtitle">Договор</h3>
+            <input
+              type="file"
+              class="popup__file"
+              value="Привязать существующий договор"
+            />
+            <div class="popup__buttons">
+              <input
+                type="submit"
+                class="popup__button-save"
+                value="Продолжить"
+              />
+              <input type="reset" class="popup__button-reset" value="Отмена" />
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
   </body>
 </html>
