@@ -1,0 +1,14 @@
+.popup__make-subtitle {
+  max-width: 400px;
+  height: 40px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696c71;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dfe1e5;
+  margin: 0;
+}

@@ -220,7 +220,7 @@
 
         <tr class="table__name-container">
           <th class="table__cell-name">
-            <input type="checkbox" class="button__checkbox" />
+            <input type="checkbox" class="checkbox" />
           </th>
           <th class="table__cell-name">
             Наименование бюджета
@@ -238,7 +238,7 @@
         </tr>
         <tr class="table__name-container">
           <td class="table__cell table__cell_type_line">
-            <input type="checkbox" class="button__checkbox" />
+            <input type="checkbox" class="checkbox" />
           </td>
           <td class="table__cell table__cell_type_line">Оборудование</td>
           <td class="table__cell table__cell_type_line">Документ №123151</td>
@@ -251,7 +251,7 @@
         </tr>
         <tr class="table__name-container">
           <td class="table__cell table__cell_type_line">
-            <input type="checkbox" class="button__checkbox" />
+            <input type="checkbox" class="checkbox" />
           </td>
           <td class="table__cell table__cell_type_line">Оборудование</td>
           <td class="table__cell table__cell_type_line">Документ №123151</td>
@@ -264,7 +264,7 @@
         </tr>
         <tr class="table__name-container">
           <td class="table__cell table__cell_type_line">
-            <input type="checkbox" class="button__checkbox" />
+            <input type="checkbox" class="checkbox" />
           </td>
           <td class="table__cell table__cell_type_line">Оборудование</td>
           <td class="table__cell table__cell_type_line">Документ №123151</td>
@@ -277,7 +277,7 @@
         </tr>
         <tr class="table__name-container">
           <td class="table__cell table__cell_type_line">
-            <input type="checkbox" class="button__checkbox" />
+            <input type="checkbox" class="checkbox" />
           </td>
           <td class="table__cell table__cell_type_line">Оборудование</td>
           <td class="table__cell table__cell_type_line">Документ №123151</td>
@@ -290,7 +290,7 @@
         </tr>
         <tr class="table__name-container">
           <td class="table__cell table__cell_type_line">
-            <input type="checkbox" class="button__checkbox" />
+            <input type="checkbox" class="checkbox" />
           </td>
           <td class="table__cell table__cell_type_line">Оборудование</td>
           <td class="table__cell table__cell_type_line">Документ №123151</td>
@@ -303,7 +303,7 @@
         </tr>
         <tr class="table__name-container">
           <td class="table__cell table__cell_type_line">
-            <input type="checkbox" class="button__checkbox" />
+            <input type="checkbox" class="checkbox" />
           </td>
           <td class="table__cell table__cell_type_line">Оборудование</td>
           <td class="table__cell table__cell_type_line">Документ №123151</td>
@@ -316,7 +316,7 @@
         </tr>
         <tr class="table__name-container">
           <td class="table__cell table__cell_type_line">
-            <input type="checkbox" class="button__checkbox" />
+            <input type="checkbox" class="checkbox" />
           </td>
           <td class="table__cell table__cell_type_line">Оборудование</td>
           <td class="table__cell table__cell_type_line">Документ №123151</td>
@@ -329,7 +329,7 @@
         </tr>
         <tr class="table__name-container">
           <td class="table__cell table__cell_type_line">
-            <input type="checkbox" class="button__checkbox" />
+            <input type="checkbox" class="checkbox" />
           </td>
           <td class="table__cell table__cell_type_line">Оборудование</td>
           <td class="table__cell table__cell_type_line">Документ №123151</td>
@@ -341,7 +341,7 @@
           </td>
         </tr>
       </table>
-      <div class="popup popup_opened">
+      <div class="popup">
         <div class="popup__container">
           <button class="popup__button-drop" type="button"></button>
           <h2 class="popup__make-title">Создание бюджета</h2>
@@ -350,19 +350,19 @@
           </p>
           <form name="popup__form" id="popup__form" class="popup__form">
             <h3 class="popup__subtitle">Тип бюджета</h3>
-            <input type="radio" class="popup__button-choice" value="Доходный" />
-            <input
-              type="radio"
-              class="popup__button-choice"
-              value="Расходный"
-            />
+            <label class="popup__container-choice"
+              ><input type="radio" class="radio" name="name1" />
+              <span class="popup__choice-name">Доходный</span>
+            </label>
+
+            <label class="popup__container-choice"
+              ><input type="radio" class="radio" name="name1" />
+              <span class="popup__choice-name">Расходный</span>
+            </label>
+
             <h3 class="popup__subtitle">Договор</h3>
-            <input
-              type="file"
-              class="popup__file"
-              value="Привязать существующий договор"
-            />
-            <div class="popup__buttons">
+            <input class="popup__file" value="Привязать существующий договор" />
+            <div>
               <input
                 type="submit"
                 class="popup__button-save"

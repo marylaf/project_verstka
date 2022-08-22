@@ -1,0 +1,15 @@
+.popup__subtitle {
+  max-width: 400px;
+  height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0e0e0f;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.popup__subtitle:last-of-type {
+  padding-bottom: 4px;
+  padding-top: 16px;
+}

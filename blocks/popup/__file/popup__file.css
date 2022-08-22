@@ -1,0 +1,15 @@
+.popup__file {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 100%;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #0e0e0f;
+  border: 1px solid #dfe1e5;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}

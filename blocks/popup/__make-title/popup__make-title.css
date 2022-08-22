@@ -1,0 +1,14 @@
+.popup__make-title {
+  max-width: 356px;
+  height: 32px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0e0e0f;
+  padding-left: 24px;
+  padding-right: 68px;
+  padding-top: 24px;
+  margin: 0;
+  padding-bottom: 8px;
+}

@@ -1,16 +1,15 @@
-.popup__button-save {
+.popup__button-reset {
   padding: 0;
   border: none;
-  background: #1c85e8;
-  border-radius: 8px;
-  width: 147px;
+  background: none;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  color: #ffffff;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  color: #0e0e0f;
+  width: 114px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   cursor: pointer;
 }

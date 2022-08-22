@@ -14,10 +14,10 @@
     url("./fonts/Robotomedium.woff2") format("woff2");
 }
 
-/* @font-face {
-  font-family: "Inter";
+@font-face {
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 900;
-  src: url("./fonts/Inter-Black.woff") format("woff"),
-    url("./fonts/Inter-Black.woff2") format("woff2");
-} */
+  font-weight: 500;
+  src: url("./fonts/Robotomedium.woff") format("woff"),
+    url("./fonts/Robotomedium.woff2") format("woff2");
+}

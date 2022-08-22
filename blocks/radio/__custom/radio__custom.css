@@ -1,0 +1,8 @@
+.radio__custom {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #c4c8d0;
+  position: relative;
+  border-radius: 30px;
+}
