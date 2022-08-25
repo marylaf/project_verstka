@@ -104,8 +104,168 @@
         />
       </div>
     </aside>
-    <main class="content">
-      <section class=""></section>
+    <main class="content content_type_revenue">
+      <section class="information information_type_two">
+        <div class="information__project">
+          <p class="information__project-title">Проекты</p>
+          <img class="icon__info" src="./images/Icon.info.svg" alt="иконка" />
+          <p class="information__project-title">Строительство МГУ</p>
+          <img class="icon__info" src="./images/Icon.info.svg" alt="иконка" />
+          <p class="information__project-title">Бюджеты</p>
+          <img class="icon__info" src="./images/Icon.info.svg" alt="иконка" />
+          <p class="information__project-title">Создание доходного бюджета</p>
+        </div>
+        <h1 class="information__title">Создание доходного бюджета</h1>
+        <div class="information__additions">
+          <div class="information__addition">
+            <label class="information__addition-title"
+              >Наименование бюджета</label
+            >
+            <input
+              type="text"
+              class="information__addition-subtitle"
+              placeholder="Введите текст"
+            />
+          </div>
+          <div class="information__addition">
+            <p class="information__addition-title">Договор</p>
+            <button type="button" class="button__icon button__icon_type_info">
+              <img class="icon" src="./images/Icon.info2.svg" alt="иконка" />
+              <p class="button__text button__text_type_info">Прикрепить</p>
+            </button>
+          </div>
+          <div class="information__addition">
+            <label class="information__addition-checkbox"
+              ><input type="checkbox" class="checkbox checkbox__info" />
+              <span class="information__addition-name"
+                >Скрыть незаполненные строки после сохранения бюджета</span
+              >
+            </label>
+          </div>
+        </div>
+        <div class="information__row-buttons">
+          <div class="description__info-two">
+            <img
+              class="icon icon_type_info-row"
+              src="./images/info.row1.svg"
+              alt="иконка"
+            />
+            <img
+              class="icon icon_type_info-row"
+              src="./images/info.row2.svg"
+              alt="иконка"
+            />
+            <div class="description__line"></div>
+            <button
+              type="button"
+              class="button__icon button__icon_type_description-agree"
+            >
+              <p class="button__text button__text_type_info-row">
+                Добавить вид работ
+              </p>
+            </button>
+            <button
+              type="button"
+              class="button__icon button__icon_type_description-agree"
+            >
+              <p class="button__text button__text_type_info-row">
+                Добавить фактический доход
+              </p>
+            </button>
+            <button
+              type="button"
+              class="button__icon button__icon_type_description-plus"
+            >
+              <p class="button__text button__text_type_info-blue">
+                Согласовать
+              </p>
+            </button>
+          </div>
+          <button
+            type="button"
+            class="button__icon button__icon_type_favorites"
+          >
+            <p class="button__text">Выбрать статус</p>
+            <img
+              class="icon icon_type_info-status"
+              src="./images/Arrow.svg"
+              alt="иконка"
+            />
+          </button>
+        </div>
+      </section>
+      <section class="tables">
+        <table class="table-revenue">
+          <colgroup>
+            <col span="1" style="width: 10%" />
+            <col span="1" style="width: 20%" />
+            <col span="1" style="width: 4%" />
+            <col span="1" style="width: 10%" />
+            <col span="1" style="width: 12%" />
+            <col span="1" style="width: 15%" />
+            <col span="1" style="width: 4%" />
+            <col span="1" style="width: 25%" />
+          </colgroup>
+
+          <tr class="table-revenue__name-container">
+            <th rowspan="2" class="table-revenue__cell-name"></th>
+            <th rowspan="2" class="table-revenue__cell-name">Вид работ</th>
+            <th rowspan="2" class="table-revenue__cell-name">Ед. изм.</th>
+            <th rowspan="2" class="table-revenue__cell-name">Объем работ</th>
+            <th
+              colspan="2"
+              class="table-revenue__cell-name table-revenue__cell-name_type_border"
+            >
+              Стоимость
+            </th>
+            <th
+              rowspan="2"
+              class="table-revenue__cell-name table-revenue__cell-name_type_border"
+            >
+              Итого: доход
+            </th>
+            <th rowspan="2" class="table-revenue__cell-name">Нал. %</th>
+            <th
+              colspan="2"
+              class="table-revenue__cell-name table-revenue__cell-name_type_border"
+            >
+              <div class="table-revenue__cell-name-container">
+                <button
+                  type="button"
+                  class="button__icon button__icon_type_table"
+                >
+                  <p class="button__text">Июль, 2022</p>
+                  <img class="icon" src="./images/Arrow.svg" alt="иконка" />
+                </button>
+                <img
+                  class="icon icon_type_table"
+                  src="./images/Icon.table1.svg"
+                  alt="иконка"
+                />
+                <img
+                  class="icon icon_type_table"
+                  src="./images/Icon.table2.svg"
+                  alt="иконка"
+                />
+              </div>
+            </th>
+          </tr>
+          <tr>
+            <td
+              class="table-revenue__cell-name table-revenue__cell-name_type_border"
+            >
+              Работы
+            </td>
+            <td class="table-revenue__cell-name">Мат. / Оборуд.</td>
+            <td
+              class="table-revenue__cell-name table-revenue__cell-name_type_border"
+            >
+              Работы
+            </td>
+            <td class="table-revenue__cell-name">Мат. / Оборуд.</td>
+          </tr>
+        </table>
+      </section>
     </main>
   </body>
 </html>

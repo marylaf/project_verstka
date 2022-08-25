@@ -1,0 +1,7 @@
+.icon_type_info-row {
+  padding: 10px;
+}
+
+.icon_type_info-row:last-of-type {
+  margin-right: 8px;
+}

@@ -1,0 +1,9 @@
+.table-revenue__cell-name {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696c71;
+  margin: 0;
+  padding-left: 12px;
+}

@@ -1,0 +1,14 @@
+.information__addition-title {
+  max-width: 330px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0e0e0f;
+  padding-bottom: 4px;
+  margin: 0;
+}
+
+/* .information__addition-title:nth-of-type() {
+  padding-bottom: 12px;
+} */
