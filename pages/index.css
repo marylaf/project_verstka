@@ -44,6 +44,8 @@
 @import url(../blocks/icon/_type/icon_type_info-status.css);
 @import url(../blocks/icon/_type/icon_type_info-row.css);
 @import url(../blocks/icon/_type/icon_type_table.css);
+@import url(../blocks/icon/_type/icon_type_twice.css);
+@import url(../blocks/icon/_type/icon_type_up.css);
 
 @import url(../blocks/information/information.css);
 @import url(../blocks/information/_type/information_type_two.css);
@@ -85,6 +87,7 @@
 @import url(../blocks/table/__cell-red/table__cell-red.css);
 @import url(../blocks/table/__cell-yellow/table__cell-yellow.css);
 @import url(../blocks/table/__cell/_type/table__cell_type_line.css);
+@import url(../blocks/table/__gap/table__gap.css);
 
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/__info/checkbox__info.css);
@@ -112,3 +115,10 @@
 @import url(../blocks/table-revenue/__cell-name/table-revenue__cell-name.css);
 @import url(../blocks/table-revenue/__cell-name/_type/table-revenue__cell-name_type_border.css);
 @import url(../blocks/table-revenue/__cell-name-container/table-revenue__cell-name-container.css);
+@import url(../blocks/table-revenue/__cell-name/_type/table-revenue__cell-name_type_two-row.css);
+@import url(../blocks/table-revenue/__value-container/table-revenue__value-container.css);
+@import url(../blocks/table-revenue/_type/table-revenue_type_two.css);
+@import url(../blocks/table-revenue/__cell-name/_type/table-revenue__cell-name_type_two.css);
+@import url(../blocks/table-revenue/__cell-name/_type/table-revenue__cell-name_type_bold.css);
+@import url(../blocks/table-revenue/__cell-name/_type/table-revenue__cell-name_type_one.css);
+@import url(../blocks/table-revenue/__cell-name/_type/table-revenue__cell-name_type_one-column.css);

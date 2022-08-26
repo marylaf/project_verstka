@@ -1,0 +1,10 @@
+.table-revenue_type_two {
+  margin-top: 12px;
+  border-bottom: none;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.table-revenue_type_two:last-child {
+  margin-top: 32px;
+}

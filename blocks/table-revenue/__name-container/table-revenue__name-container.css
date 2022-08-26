@@ -1,5 +1,4 @@
 .table-revenue__name-container {
-  margin-bottom: 12px;
-  /* margin-right: 32px;
-  margin-left: 32px; */
+  padding-left: 32px;
+  padding-right: 32px;
 }

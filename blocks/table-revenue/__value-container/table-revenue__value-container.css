@@ -1,0 +1,9 @@
+.table-revenue__value-container {
+  padding-left: 32px;
+  padding-right: 32px;
+  border-bottom: 1px solid #dfe1e5;
+}
+
+.table-revenue__value-container:last-child {
+  border-bottom: none;
+}
