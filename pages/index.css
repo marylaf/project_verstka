@@ -95,6 +95,7 @@
 @import url(../blocks/radio/__custom/radio__custom.css);
 
 @import url(../blocks/tables/tables.css);
+@import url(../blocks/tables/_type/tables_type_name.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
